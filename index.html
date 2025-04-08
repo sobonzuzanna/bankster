@@ -46,7 +46,7 @@
         </nav>
     </header>
 
-     <main>
+    <main>
         <!-- Hero Section -->
         <section class="hero">
             <div class="hero__container">
@@ -75,7 +75,7 @@
         </div>
 
         <!-- Why Choose Us Section -->
-         <section class="why-choose-us">
+        <section class="why-choose-us">
             <div class="container">
                 <h2>Why Choose Us</h2>
                 <p class="intro-text">
@@ -116,8 +116,110 @@
                     </div>
                 </div>
             </div>
-         </section>
-     </main>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="services">
+            <h2>Choose the right plan for you</h2>
+
+            <!-- Pricing Toggle Button -->
+            <div class="pricing-toggle">
+                <div class="toggle-container">
+                    <span class="toggle-option">Monthly</span>
+                    <label for="" class="switch">
+                        <input 
+                        type="checkbox" 
+                        id="pricing-toggle-checkbox" 
+                        onClick="switchPricing()"
+                        />
+                        <span class="slider"></span>
+                    </label>
+                    <span class="toggle-option">Yearly</span>
+                </div>
+
+                <div class="save-percentage-container">
+                    <span class="save-percentage">Save 20%</span>
+                </div>
+            </div>
+
+            <div class="services__container">
+                <!-- Basic Plan -->
+                <div class="services__card">
+                    <div class="card-content">
+
+                        <h3>Basic Plan</h3>
+                        <div class="card-price">
+                            <p class="price monthly-price">$10/mo</p>
+                            <p class="price yearly-price hidden">$8/mo</p>
+                            <a href="/signup.html" class="price-btn">Get Started</a>
+                            <p id="small-desc">Everything you need to get started</p>
+                        </div>
+
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li>Digital Checking Account</li>
+                                <li>Access to basic features</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <div class="card-content">
+                        
+                        <h3>Standard Plan</h3>
+                        <div class="card-price">
+                            <p class="price monthly-price">$30/mo</p>
+                            <p class="price yearly-price hidden">$24/mo</p>
+                            <a href="/signup.html" class="price-btn">Get Started</a>
+                            <p id="small-desc">Perfect for individual looking to take control of their finances</p>
+                        </div>
+
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li>Automatic Expense Tracing</li>
+                                <li>Customizable Budgets</li>
+                                <li>Personalized Financial Reports</li>
+                                <li>Goal-Based Savings Tracking</li>
+                                <li>Email & Chat Support</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <div class="card-content">
+                        
+                        <h3>Premium Plan</h3>
+                        <div class="card-price">
+                            <p class="price monthly-price">$50/mo</p>
+                            <p class="price yearly-price hidden">$40/mo</p>
+                            <a href="/signup.html" class="price-btn">Get Started</a>
+                            <p id="small-desc">Ideal for investors and advanced users</p>
+                        </div>
+
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li>Automatic Expense Tracing</li>
+                                <li>Customizable Budgets</li>
+                                <li>Personalized Reports</li>
+                                <li>Investment Managment</li>
+                                <li>AI-Powered Financial Insights</li>
+                                <li>Priority Support</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
     <script src="app.js"></script>
 </body>
 </html>
