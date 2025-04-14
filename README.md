@@ -7,3 +7,7 @@ This is a simple website I created as part of a tutorial by [Brian Design](https
 - Basic structure created using **HTML**.
 - Responsive layout and styling with **CSS**.
 - Interactive elements built with **JavaScript**.
+
+## Live demo
+
+https://github.com/sobonzuzanna/bankster
